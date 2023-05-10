@@ -1,0 +1,118 @@
+
+body{
+    background-image: url('../media/fondo2.png');
+}
+main{
+    /* height: 150rem; */
+    width: 100%;
+    background-color: white;
+}
+
+h1{
+    text-align: center; color: rgba(85, 176, 85, 0.926);
+    
+}
+#logo{
+   align-items: center;
+     width: 70px;
+
+}
+#logo:hover{
+    padding: 2rem;
+}
+#navegacion{
+    background: linear-gradient(180deg, rgba(246,245,249,0.804359243697479) 0%, rgba(67,201,67,1) 100%); 
+    font-style: oblique; 
+}
+nav li {
+    text-align: center;
+    display:inline-block;
+    width:10%;
+    padding:1% 15% 3% 15%;
+    
+}
+.video-container{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    padding: 30px;
+}
+
+#plantas{
+    text-align: center;
+    width: 100%;
+    padding: 5% 3%
+    
+}
+.formContainer{
+    /* background-image: url(../media/plantas_agua.jpg); */
+    /* background-color: rgba(128, 128, 128, 0.391); */
+    position: absolute;
+    text-align: justify;
+    padding: 1% 20% 1% 30%;
+}
+
+.box{
+    border-radius: 3px;
+}
+#img.pagosSeg{
+    padding-left: 65px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+  }
+@media (min-width:550px) {
+#img.pagosSeg{
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    h4{
+        text-align: center;
+    }
+}
+#texto-carbono{
+    font-size: 1.3rem;
+    color: rgb(84, 125, 86);
+    padding: 50px;
+  }
+  
+footer{
+    background-color: rgba(67, 201, 67, 0.487); 
+    width: 100%
+}
+
+.redes{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    padding: 40px;
+
+}
+
+.containersales{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:1em;    
+
+}
+.prvt{
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+
+    
+
+}
+.containersales>div{
+    border: solid black;
+    width: 90%;
+
+}
+.containersales>div>picture>img{
+    width: 70%;
+}
+
